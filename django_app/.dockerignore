@@ -1,0 +1,3 @@
+celerybeat-schedule
+.git
+__pycache__/*
