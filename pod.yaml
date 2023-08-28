@@ -2,7 +2,3 @@ apiVersion: v1
 kind: Pod
 metadata:
   name: django-pod
-spec:
-  tolerations:
-    - key: "node-role.kubernetes.io/master"
-      effect: "NoSchedule"
