@@ -8,5 +8,5 @@ spec:
   selector:
     app: sample-django-app
   ports:
-    - port: 85 
+    - port: 80 
       targetPort: 8000
