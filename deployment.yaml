@@ -16,6 +16,6 @@ spec:
       containers:
         - name: sample-django-app
           image: pkshahid/django_sample_app:latest
-          imagePullPolicy: Always
+          imagePullPolicy: always
           ports:
             - containerPort: 8000
